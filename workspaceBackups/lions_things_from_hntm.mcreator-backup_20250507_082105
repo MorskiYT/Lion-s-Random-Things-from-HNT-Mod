@@ -1,0 +1,174 @@
+{
+  "mod_elements": [
+    {
+      "name": "Lionthingfromhntm",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lionthingfromhntm",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PlasicBag",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plasic_bag",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lionsthingsfromhntm/item/PlasicBagItem.java",
+          "src/main/resources/assets/lions_things_from_hntm/models/item/plasic_bag.json"
+        ]
+      }
+    },
+    {
+      "name": "Dummy",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dummy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lionsthingsfromhntm/entity/DummyEntity.java",
+          "src/main/java/net/mcreator/lionsthingsfromhntm/client/renderer/DummyRenderer.java",
+          "src/main/resources/data/lions_things_from_hntm/forge/biome_modifier/dummy_biome_modifier.json",
+          "src/main/resources/assets/lions_things_from_hntm/models/item/dummy_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Duck",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duck",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lions_things_from_hntm/models/item/duck_spawn_egg.json",
+          "src/main/resources/data/lions_things_from_hntm/forge/biome_modifier/duck_biome_modifier.json",
+          "src/main/java/net/mcreator/lionsthingsfromhntm/client/renderer/DuckRenderer.java",
+          "src/main/java/net/mcreator/lionsthingsfromhntm/entity/DuckEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "WasteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waste_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lions_things_from_hntm/loot_tables/blocks/waste_block.json",
+          "src/main/resources/assets/lions_things_from_hntm/models/item/waste_block.json",
+          "src/main/resources/assets/lions_things_from_hntm/models/block/waste_block.json",
+          "src/main/resources/assets/lions_things_from_hntm/blockstates/waste_block.json",
+          "src/main/java/net/mcreator/lionsthingsfromhntm/block/WasteBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Nuclearwastewater",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclearwastewater",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lionsthingsfromhntm/block/NuclearwastewaterBlock.java",
+          "src/main/java/net/mcreator/lionsthingsfromhntm/fluid/types/NuclearwastewaterFluidType.java",
+          "src/main/resources/assets/lions_things_from_hntm/models/item/nuclearwastewater_bucket.json",
+          "src/main/java/net/mcreator/lionsthingsfromhntm/item/NuclearwastewaterItem.java",
+          "src/main/resources/assets/lions_things_from_hntm/models/block/nuclearwastewater.json",
+          "src/main/resources/assets/lions_things_from_hntm/blockstates/nuclearwastewater.json",
+          "src/main/java/net/mcreator/lionsthingsfromhntm/fluid/NuclearwastewaterFluid.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "ducc1",
+      "files": [
+        "ducc1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "ducc2",
+      "files": [
+        "ducc2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "shock_wave",
+      "files": [
+        "shockwave-105526"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "nuclear_alarm",
+      "files": [
+        "nuclear-alarm-104598"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Nuclearwastewater"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "subtitles.shock_wave": "",
+      "item.lions_things_from_hntm.dummy_spawn_egg": "Dummy Spawn Egg",
+      "subtitles.nuclear_alarm": "",
+      "item_group.lions_things_from_hntm.lionthingfromhntm": "Lion\u0027s things from hntm",
+      "subtitles.nuclear-alarm": "",
+      "subtitles.ducc2": "",
+      "block.lions_things_from_hntm.waste_block": "Waste Block",
+      "block.lions_things_from_hntm.nuclearwastewater": "Nuclearwastewater",
+      "entity.lions_things_from_hntm.dummy": "Dummy",
+      "subtitles.ducc1": "",
+      "item.lions_things_from_hntm.plasic_bag": "Plasic Bag",
+      "entity.lions_things_from_hntm.duck": "Duck",
+      "fluid.lions_things_from_hntm.nuclearwastewater": "Nuclearwastewater",
+      "item.lions_things_from_hntm.nuclearwastewater_bucket": "Nuclear waste water Bucket",
+      "item.lions_things_from_hntm.duck_spawn_egg": "Duck Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "lions_things_from_hntm",
+    "modName": "Lion\u0027s Things from HNTM",
+    "version": "1.0.0",
+    "description": "HNTM - Hbm\u0027s Nuclear Tech Mod",
+    "author": "Lion331011, MCreator",
+    "websiteURL": "https://www.youtube.com/@Squtrim",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "achievement_icon.balls",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Special Thanks For MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.lionsthingsfromhntm"
+  },
+  "mcreatorVersion": 202500113416
+}
